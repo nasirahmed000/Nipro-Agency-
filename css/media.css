@@ -1,31 +1,208 @@
-/* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
 
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    header {
+        padding: 0 10px;
+    }
+    .s_submit[data-bs-popper] {
+        top: 0;
+        left: 0px;
+        padding: 8px 12px;
+    }
+    .s_input {
+        border: none;
+        padding: 4px 0;
+    }
+    .s_submit{
+        width: 100%;
+        height: 50px;
+    }
+    .menu ul li {
+        padding: 0;
+    }
+    .menu ul li a{
+        padding: 5px 0 ;
+    }
+/*Carousel*/
+    .single_carousel {
+        padding: 40px 0;
+    }
+    .single_carousel h2 {
+        font-size: 24px;
+    }
+    .single_carousel p {
+        font-size: 14px;
+        padding: 24px 0;
+        line-height: 1.5;
+    }
+
+/*Welcome Section*/
+    .welcome {
+        margin-bottom: 50px;
+    }
+    .c_h1 {
+        font-size: 24px;
+        margin: 0;
+    }
+    /*About Section*/
+    .about_content h1 {
+        margin-top: 15px;
+    }
+    /*Portfolio Start*/
+    .portfolio {
+        padding-bottom: 40px;
+    }
+    .nav_sty {
+        padding: 5px;
+    }
+    .p_menu {
+        margin: 0 auto;
+    }
+    /*Chose Section Start*/
+    .chose {
+        padding-bottom: 40px;
+    }
+      /*Team Section Start*/
+    .team {
+        padding-bottom: 40px;
+    }
+    .single_per {
+        border-radius: 5px;
+        margin-top: 24px;
+    }
+    /*Pricing Section Start*/
+    .single_price {
+        margin-top: 20px;
+    }
+    /*Pricing Section Start*/
+    .pricing {
+        margin-bottom: 40px;
+    }
+    .single_price {
+        margin-top: 30px;
+    }
+    .price_heading {
+        margin-top: -37px;
+    }
+    .center{
+        text-align: center;
+    }
+    .con_us {
+        margin-bottom: 10px;
+    }
 
 }
 
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) { 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .s_submit[data-bs-popper] {
+        top: 0;
+        left: 0px;
+        padding: 10px 15px;
+    }
+    .menu ul li {
+        padding: 0;
+    }
+/*Carousel*/
+    .single_carousel {
+        padding: 66px 0;
+    }
+    .single_carousel h2 {
+        font-size: 36px;
+    }
+    .single_carousel p {
+        padding: 24px 0;
+    }
+/*Welcome Section*/
+    .welcome {
+        margin-bottom: 70px;
+    }
+    .c_h1 {
+        font-size: 24px;
+        margin: 19px 0;
+    }
+    /*About Section*/
+    .about_content h1 {
+        margin-top: 20px;
+    }
+    /*Portfolio Start*/
+    .nav_sty {
+        padding: 10px;
+    }
+    .p_menu {
+        margin: 0 auto;
+    }
+    /*Pricing Section Start*/
+    .pricing {
+        margin-bottom: 40px;
+    }
+    .single_price {
+        margin-top: 30px;
+    }
+    .price_heading {
+        margin-top: -38px;
+    }
+    .center{
+        text-align: center;
+    }
+    .con_us {
+        margin-bottom: 10px;
+    }
+}
 
-
- }
-
-/* // Medium devices (tablets, 768px and up) */
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
+    .s_submit[data-bs-popper] {
+        top: 0;
+        left: 0px;
+        padding: 10px 15px;
+    }
+    .menu ul li {
+        padding: 0;
+    }
+    /*About Section*/
+    .about_us {
+        margin-bottom: 60px;
+    }
+    .about_content h1 {
+        margin-top: 30px;
+    }
+/*Portfolio Start*/
+    .p_menu {
+        margin: 20px auto 20px;
+    }
+/*Chose Start*/
+    .chose {
+        padding-bottom: 60px;
+    }
+    /*Pricing Section Start*/
+    .pricing {
+        margin-bottom: 60px;
+    }
+    .single_price {
+        margin-top: 40px;
+    }
+}
 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
 
- }
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    .about_content p {
+        margin-top: 35px;
+    }
+}
 
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-
-
-
- }
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-            
-
-
- }
+/* Extra Extra large devices (Extra large desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .about_content h1 {
+        font-size: 40px;
+    }
+    .about_content p {
+        margin-top: 25px;
+        font-size: 18px;
+    }
+}
